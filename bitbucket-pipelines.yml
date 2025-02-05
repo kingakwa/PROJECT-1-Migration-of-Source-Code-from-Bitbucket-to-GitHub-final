@@ -7,5 +7,5 @@
             enabled: false
           script:
             - git clone --mirror https://x-token-auth:"$BITBUCKET_VARIABLE"@bitbucket.org/akwa_bitbucket/mirrow-repo-bitbucket.git ## @bitbucket.org follow by your Bitbucket repository path
-            - cd Mirroring-Repo.git ## cd followed by your Github repository Name
+            - cd mirrow-repo-bitbucket.git ## cd followed by your Github repository Name
             - git push --mirror https://x-token-auth:"$GITHUB_VARIABLE"@github.com/kingakwa/mirroring-repo.git ## @github.com followed by your Github repository path

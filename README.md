@@ -5,7 +5,6 @@
 
 ## OBJECTIVE:
 Migrating your existing bitbucket repository to GitHub repository, synchronizing them in shuch a way that when ever a change is made in the source repository(Bitbucket) the same change will be replecated in GitHub without any manuel intervention.
-https://github.com/kingakwa/Mirror-and-synchronizing-akwa/blob/main/migration-bitbucket-github.jpg
 
 # Prerequisites
 Before starting, ensure you have:

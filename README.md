@@ -21,7 +21,7 @@ The migration process involves the following components:
 - Source Platform (Bitbucket):- Contains the repository to be migrated.
 - Includes repository history, branches, and pull requests.
 
-- Destination Platform (GitHub):- The target platform where repositories will be hosted.
+- Destination Platform (GitHub):- The target platform where repository will be hosted.
 - Supports Git-based version control and collaboration.
 
 - Migration Tools:- Git: Used to clone and push repositories.

@@ -15,7 +15,23 @@ Before starting, ensure you have:
 - SSH and Git installed on your local machine
 - Basic knowledge of CI/CD pipelines
 
- # Project Visualization:
+ # Project Architecture:
+ 
+The migration process involves the following components:
+- Source Platform (Bitbucket):- Contains the repositories to be migrated.
+- Includes repository history, branches, and pull requests.
+
+- Destination Platform (GitHub):- The target platform where repositories will be hosted.
+- Supports Git-based version control and collaboration.
+
+- Migration Tools:- Git: Used to clone and push repositories.
+- GitHub CLI: Facilitates repository creation and management on GitHub.
+
+- Workflow:- Clone repositories from Bitbucket.
+- Push repositories to GitHub.
+- Verify repository integrity and permissions.
+
+
  <img width="531" alt="migration-datat center" src="https://github.com/user-attachments/assets/c691c056-8adb-43fc-94e5-14abaad501bd" />
 
 # Step-by-Step Guide

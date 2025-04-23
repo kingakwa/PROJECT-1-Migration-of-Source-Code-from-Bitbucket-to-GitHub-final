@@ -18,7 +18,7 @@ Before starting, ensure you have:
  # Project Architecture:
  
 The migration process involves the following components:
-- Source Platform (Bitbucket):- Contains the repositories to be migrated.
+- Source Platform (Bitbucket):- Contains the repository to be migrated.
 - Includes repository history, branches, and pull requests.
 
 - Destination Platform (GitHub):- The target platform where repositories will be hosted.

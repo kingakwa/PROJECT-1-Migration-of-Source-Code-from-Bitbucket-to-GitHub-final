@@ -108,7 +108,7 @@ The migration process involves the following components:
   
   - On Bitbucket, Create a Repository variables with the Access Token from Github under Repository Settings > Pipeline > Repository variable. Naming the variable Example "GITHUB_VARIABLE"
 
-# Inside the Bitbucket repo, create a bitbucket-pipelines.yml file containing the following:
+# In Bitbucket repo, edit the bitbucket-pipelines.yml file containing the following:
 
 ```
   pipelines:
@@ -127,7 +127,7 @@ The migration process involves the following components:
 On your code replace the "$BITBUCKET_VARIABLE" and "$GITHUB_VARIABLE" with your corresponding variable names while keeping the $ and the "" sign. 
 
 # Run the pipeline in Bitbucket
--On the Bitbucket, select pipeline and select `Run piple` line at the right corner and watich the pipeline run to success with a green indication that it was successful
+-In Bitbucket, select `Pipeline`, then click `Run Pipeline` in the top-right corner. Monitor the pipeline execution and confirm it completes successfully, indicated by a green status
 
 <img width="953" alt="migration successful" src="https://github.com/user-attachments/assets/07c2ab89-1414-424e-9c9a-07e4d800fa7b" />
 

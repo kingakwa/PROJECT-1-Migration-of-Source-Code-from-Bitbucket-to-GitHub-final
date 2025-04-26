@@ -80,7 +80,7 @@ The migration process involves the following components:
   - On GitHub, add the public key under Settings > Security > Deploy keys > Add deploy key. Tick the checkbox to Allow write access
    <img width="758" alt="image" src="https://github.com/user-attachments/assets/dca749e2-21b0-4c19-a48a-c2c7d93f3266" />
     
-  - On Bitbucket, add the public key under Repository settings > Security > Access keys > Add key
+  - On Bitbucket, add the public key under Repository settings > Security > Access keys > Add key; add the key as an environmental variable using the path
     
     <img width="767" alt="add access key" src="https://github.com/user-attachments/assets/4dc06e4b-4fbf-4261-a508-0ffe6d010c8f" />
   

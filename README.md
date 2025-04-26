@@ -37,14 +37,14 @@ The migration process involves the following components:
 ## On GitHub, create a new empty repository
 - Go to GitHub
 - Click on New Repository
-- Do not initialize with a README file
-- Copy the repository UR
+- Select README file
+- Copy the repository URL
 
  ## On your Bitbucket
  
 - Navigate to your Bitbucket repository Example "Mirroring-Repo" Create an access token under `Repository settings > Security > Access tokens`
  - Create Repository Access Token with selecting all the "READ" Permission
-  - Copy the last Access token Example [[{ "https://x-token-auth:ATCTT3xFfGN0TSG5xC5PMZex1aEWC2wMY7j1SiYTwLpR7WTpHQ4DJ1oRfevWbd-LVn9bRzmr3csDN4DEjT57KYlsxWcKXnk5zW17DLJ9ssRcOFFwegxzPTMS-MAfumre3yDmXup-z1nHb8XSRGI9N_McR6FRyHArzIoPIWiJSk6cQfYqfAkIw_w=65FC4ty63@bitbucket.org/demo-migration12/solstice_demo.git" }]](https://bitbucket.org/akwa_bitbucket/mirrow-repo-bitbucket/pipelines/results/10/steps/%7Bcac4c1a3-c1f3-425f-b026-cae46a3dfa7e%7D)(https://bitbucket.org/solavisetech-migration/aws-etl-tf-python-project/src/master/)
+  - Copy the last Access token Example 
      <img width="902" alt="acccess-taken 1" src="https://github.com/user-attachments/assets/58b6e78c-a18b-4d61-9d65-909456ddfdfc" />
     
 - Navigate To Github and Import the Repository while keeping the same name "Mirroring-Repo"
@@ -54,17 +54,19 @@ The migration process involves the following components:
      - Open GitHub in your browser.
      - Sign in with your GitHub credentials.
 
-       Import a Repository
+       **Import a Repository**
      - Click on your profile icon in the top-right corner.
      - Select "Your repositories" from the dropdown.
       - Click the green "New" button and select "Import a repository" (or go directly to GitHub Importer).
+
+
+       <img width="640" alt="importing repo" src="https://github.com/user-attachments/assets/d034d6aa-ba05-4dfe-8d3f-8091cd1b4885" />
+
+
      - Enter the URL of the repository you want to import (e.g., from GitHub, GitLab, or Bitbucket).
      - In the "Repository Name" field, type "Mirroring-Repo" to maintain the same name.
      - Choose your preferred visibility (Public or Private).
      - Click "Begin Import" and wait for the process to complete.
-       <img width="640" alt="importing repo" src="https://github.com/user-attachments/assets/d034d6aa-ba05-4dfe-8d3f-8091cd1b4885" />
-
-
  
   - On Bitbucket, Enable Pipelines under Repository settings > Pipelines > Settings
     <img width="920" alt="enable pipeline" src="https://github.com/user-attachments/assets/702872be-05f7-499d-855a-79fc47a8ba29" />

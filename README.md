@@ -89,7 +89,7 @@ The migration process involves the following components:
     
   <img width="890" alt="image" src="https://github.com/user-attachments/assets/76d1a024-74a8-4b19-b129-26fe3d2d4cb8" />
 
-  - On Bitbucket, Create a Repository variables under Repository Settings > Pipeline > Repository variable. Naming the variable Example " BITBUCKET_VARIABLE"
+  - In Bitbucket, create a repository variable by navigating to Repository Settings > Pipeline > Repository Variables. Name the variable, for example, 'BITBUCKET_VARIABLE'.
     
     <img width="931" alt="Repository variable" src="https://github.com/user-attachments/assets/a8c04cce-4093-45c7-832c-b90e8e91e111" />
     

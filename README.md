@@ -43,7 +43,7 @@ The migration process involves the following components:
  ## On your Bitbucket
  
 - Navigate to your Bitbucket repository Example "Mirroring-Repo" Create an access token under `Repository settings > Security > Access tokens`
- - Create Repository Access Token with selecting all the "READ" Permission
+ - Create Repository Access Token with selecting all the "READ" Permission and check the Read and write checkbox under Webhooks. Copy the first Token and save it in your notepad because you can view it just once.
   - Copy the last Access token Example 
      <img width="902" alt="acccess-taken 1" src="https://github.com/user-attachments/assets/58b6e78c-a18b-4d61-9d65-909456ddfdfc" />
     

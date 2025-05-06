@@ -44,7 +44,8 @@ The migration process involves the following components:
  
 - Navigate to your Bitbucket repository Example "Mirroring-Repo" Create an access token under `Repository settings > Security > Access tokens`
  - Create Repository Access Token with selecting all the "READ" Permission and check the Read and write checkbox under Webhooks. Copy the first Token and save it in your notepad because you can view it just once.
-  - Copy the first Token and save it in your notepad because you can view it just once. 
+  - Copy the first Token and save it in your notepad because you can view it just once.
+    
 <img width="890" alt="Image" src="https://github.com/user-attachments/assets/397c5e97-6230-44b5-9e3f-d8decd1eef03" />
 
 - Navigate To Github and Import the Repository while keeping the same name "Mirroring-Repo"
@@ -85,7 +86,8 @@ The migration process involves the following components:
     <img width="767" alt="add access key" src="https://github.com/user-attachments/assets/4dc06e4b-4fbf-4261-a508-0ffe6d010c8f" />
 
 
-  - In Bitbucket, create a repository variable by navigating to Repository Settings > Pipeline > Repository Variables. Name the variable, for example, 'BITBUCKET_VARIABLE'.
+  - In Bitbucket, create a repository variable by navigating to Repository Settings > Pipeline > Repository Variables. Name the variable, for example, 'BITBUCKET_VARIABLE'.This will be referenced in your bitbucket-pipelines.yml file.
+  - Paste the Access Token you generated in the step above 
     
     <img width="931" alt="Repository variable" src="https://github.com/user-attachments/assets/a8c04cce-4093-45c7-832c-b90e8e91e111" />
     

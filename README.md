@@ -44,9 +44,9 @@ The migration process involves the following components:
  
 - Navigate to your Bitbucket repository Example "Mirroring-Repo" Create an access token under `Repository settings > Security > Access tokens`
  - Create Repository Access Token with selecting all the "READ" Permission and check the Read and write checkbox under Webhooks. Copy the first Token and save it in your notepad because you can view it just once.
-  - Copy the last Access token Example 
-     <img width="902" alt="acccess-taken 1" src="https://github.com/user-attachments/assets/58b6e78c-a18b-4d61-9d65-909456ddfdfc" />
-    
+  - Copy the first Token and save it in your notepad because you can view it just once. 
+<img width="890" alt="Image" src="https://github.com/user-attachments/assets/397c5e97-6230-44b5-9e3f-d8decd1eef03" />
+
 - Navigate To Github and Import the Repository while keeping the same name "Mirroring-Repo"
      - To navigate to GitHub and import a repository while keeping the same name "Mirroring-Repo", follow these steps:
        
@@ -83,11 +83,7 @@ The migration process involves the following components:
   - On Bitbucket, add the public key under Repository settings > Security > Access keys > Add key; add the key as an environmental variable using the path
     
     <img width="767" alt="add access key" src="https://github.com/user-attachments/assets/4dc06e4b-4fbf-4261-a508-0ffe6d010c8f" />
-  
-  - On Bitbucket, Create an access tokens under Repository settings > Security > Access tokens. Create Repository Access Token, give a name with selecting all the "READ" Permission and tick the checkbox of Webhooks
-  - Copy the first Token Example { "ATCTT3xFfGN0TSG5xC5PMZex1aEWC2wMY7j1SiYTwLpR7WTpHQ4DJ1oRfevWbd-LVn9bRzmr3csDN4DEjT57KYlsxWcKXnk5zW17DLJ9ssRcOFFwegxzPTMS-MAfumre3yDmXup-z1nHb8XSRGI9N_McR6FRyHArzIoPIWiJSk6cQfYqfAkIw_w=65FC4ty63" }
-    
-  <img width="890" alt="image" src="https://github.com/user-attachments/assets/76d1a024-74a8-4b19-b129-26fe3d2d4cb8" />
+
 
   - In Bitbucket, create a repository variable by navigating to Repository Settings > Pipeline > Repository Variables. Name the variable, for example, 'BITBUCKET_VARIABLE'.
     
